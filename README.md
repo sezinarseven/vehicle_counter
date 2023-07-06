@@ -2,7 +2,7 @@
 
 This repository contains code for a vehicle counter using computer vision techniques. The code is implemented in Python using the OpenCV library for video processing and object detection.
 
-https://github.com/sezinarseven/vehicle_counter/assets/88224304/9092aaeb-7e1b-4cf9-a499-f14df09dfc92
+https://github.com/sezinarseven/vehicle_counter/assets/88224304/2d7c484b-612b-4d7b-ad04-8048bead6ec2
 
 ## Features
 - Detects vehicles in a video stream using the YOLOv7 object detection model.
