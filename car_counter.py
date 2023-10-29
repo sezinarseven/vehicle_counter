@@ -34,7 +34,7 @@ if __name__ == "__main__":
         predictions = tracker.update(frame, tracker, output_results=predictions)
 
         for pred in predictions:
-            if int(pred[5]) == 1 or 2 or 3 or 5 or 7: # 'bicycle', 'car', 'motorcycle', 'bus', 'truck'
+            if int(pred[5]) in [1, 2, 3, 5, 7]:  # 'bicycle', 'car', 'motorcycle', 'bus', 'truck'
                 mid_y = (2*pred[1] + pred[3]) / 2
                 
                 if vehicles.get(pred[4]) is None:
